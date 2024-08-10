@@ -13,7 +13,8 @@
     "displayName": "Reverse scoops"
   },
   "CRUNCHES": {
-    "displayName": "Crunches"
+    "displayName": "Crunches",
+    "iconPath": "icons/crunch.png"
   },
   "CRUNCHES_CHAIR": {
     "displayName": "Chair crunches"
