@@ -1,0 +1,42 @@
+
+{
+  "PENGUINS": {
+    "displayName": "Penguins"
+  },
+  "FLUTTERS": {
+    "displayName": "Flutter kicks"
+  },
+  "SCOOPS_FORWARD": {
+    "displayName": "Forward scoops"
+  },
+  "SCOOPS_REVERSE": {
+    "displayName": "Reverse scoops"
+  },
+  "CRUNCHES": {
+    "displayName": "Crunches"
+  },
+  "CRUNCHES_CHAIR": {
+    "displayName": "Chair crunches"
+  },
+  "CRUNCHES_REACH": {
+    "displayName": "Extension crunches"
+  },
+  "VUPS": {
+    "displayName": "V-ups"
+  },
+  "SCISSORS": {
+    "displayName": "Scissor kicks"
+  },
+  "TWISTS": {
+    "displayName": "Twists"
+  },
+  "BICYCLES": {
+    "displayName": "Bicycles"
+  },
+  "CIRCLES": {
+    "displayName": "Ab circles"
+  },
+  "SUITCASES": {
+    "displayName": "Suitcases"
+  }
+}
