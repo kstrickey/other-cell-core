@@ -17,10 +17,12 @@
     "iconPath": "icons/crunch.png"
   },
   "CRUNCHES_CHAIR": {
-    "displayName": "Chair crunches"
+    "displayName": "Chair crunches",
+    "iconPath": "icons/chair crunch.png"
   },
   "CRUNCHES_REACH": {
-    "displayName": "Extension crunches"
+    "displayName": "Extension crunches",
+    "iconPath": "icons/reach crunch.png"
   },
   "VUPS": {
     "displayName": "V-ups"
@@ -32,7 +34,8 @@
     "displayName": "Twists"
   },
   "BICYCLES": {
-    "displayName": "Bicycles"
+    "displayName": "Bicycles",
+    "iconPath": "icons/bicycle.png"
   },
   "CIRCLES": {
     "displayName": "Ab circles"
