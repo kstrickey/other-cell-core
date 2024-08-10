@@ -28,3 +28,55 @@ body, html {
     background-position: 0% 50%;
   }
 }
+
+
+
+
+/* General utility CSS classes for app */
+
+.spinning {
+  animation: spin infinite 2s linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.zoomable-subtle {
+  transition: transform .2s;
+}
+.zoomable-subtle:hover {
+  transform: scale(1.015);
+}
+.zoomable-mid {
+  transition: transform .2s;
+}
+.zoomable-mid:hover {
+  transform: scale(1.05);
+}
+.zoomable {
+  transition: transform .2s;
+}
+.zoomable:hover {
+  transform: scale(1.1);
+}
+
+.not-too-wide {
+  max-width: 500px;
+}
+.not-obscenely-wide {
+  max-width: 850px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.balanced-text {
+  text-wrap: balance;
+}
+
