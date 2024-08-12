@@ -3,11 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './containers/Home';
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;

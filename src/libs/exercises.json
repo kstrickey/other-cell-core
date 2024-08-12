@@ -25,7 +25,8 @@
     "iconPath": "icons/reach crunch.png"
   },
   "VUPS": {
-    "displayName": "V-ups"
+    "displayName": "V-ups",
+    "iconPath": "icons/v up.png"
   },
   "SCISSORS": {
     "displayName": "Scissor kicks"
@@ -38,7 +39,8 @@
     "iconPath": "icons/bicycle.png"
   },
   "CIRCLES": {
-    "displayName": "Ab circles"
+    "displayName": "Ab circles",
+    "iconPath": "icons/ab circles.png"
   },
   "SUITCASES": {
     "displayName": "Suitcases"

@@ -1,20 +1,11 @@
 body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
   font-family: 'Arial', sans-serif;
 }
 
-.App {
-  text-align: center;
-  height: 100vh;
+.soothing-background {
   background: linear-gradient(135deg, #5fb4ff, #feb47b);
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 @keyframes gradientAnimation {
