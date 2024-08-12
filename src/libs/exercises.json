@@ -4,7 +4,8 @@
     "displayName": "Penguins"
   },
   "FLUTTERS": {
-    "displayName": "Flutter kicks"
+    "displayName": "Flutter kicks",
+    "iconPath": "icons/flutters.png"
   },
   "SCOOPS_FORWARD": {
     "displayName": "Forward scoops"
@@ -29,7 +30,8 @@
     "iconPath": "icons/v up.png"
   },
   "SCISSORS": {
-    "displayName": "Scissor kicks"
+    "displayName": "Scissor kicks",
+    "iconPath": "icons/scissors.png"
   },
   "TWISTS": {
     "displayName": "Twists"
