@@ -7,6 +7,14 @@ import { DEFAULT_EXERCISE_LIST } from '../libs/exercises';
 import ExerciseCard from '../components/ExerciseCard';
 
 
+function getShuffledExerciseList() {
+  return DEFAULT_EXERCISE_LIST
+      .concat([DEFAULT_EXERCISE_LIST[Math.floor(Math.random() * DEFAULT_EXERCISE_LIST.length)]])   // add an extra exercise (sneaky sneaky!)
+      .map(val => ({ val, sort: Math.random() }))  // randomize order
+      .sort((a, b) => a.sort - b.sort).map(({ val }) => val)
+}
+
+
 export default function Home() {
 
   const [exercisesList, setExercisesList] = useState(DEFAULT_EXERCISE_LIST);
@@ -14,12 +22,14 @@ export default function Home() {
   return (
     <Container className='soothing-background m-0 px-5' fluid style={{ minHeight: '100vh', width: '100vw' }}>
       <Row>
-        <Col className='d-flex align-items-center' md={5}>
+        <Col className='d-flex flex-column justify-content-center align-items-center' md={5}>
+          <img className='mt-3' src='/logo512.png' alt='Other Cell Core logo' width='100px' />
+          <div className='mt-2 h4'>Other Cell Core&#8482;</div>
           <Button
             className='mx-auto my-4'
             style={{ width: '240px' }}
             size='lg'
-            onClick={() => setExercisesList(lst => lst.map(val => ({ val, sort: Math.random() })).sort((a, b) => a.sort - b.sort).map(({ val }) => val))}
+            onClick={() => setExercisesList(getShuffledExerciseList())}
           >Shuffle</Button>
         </Col>
         <Col md={7}>
