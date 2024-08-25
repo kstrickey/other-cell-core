@@ -12,7 +12,7 @@ export default function Home() {
   const [exercisesList, setExercisesList] = useState(DEFAULT_EXERCISE_LIST);
 
   return (
-    <Container className='soothing-background m-0 px-5' fluid style={{ height: '100vh', width: '100vw' }}>
+    <Container className='soothing-background m-0 px-5' fluid style={{ minHeight: '100vh', width: '100vw' }}>
       <Row>
         <Col className='d-flex align-items-center' md={5}>
           <Button
@@ -23,7 +23,7 @@ export default function Home() {
           >Shuffle</Button>
         </Col>
         <Col md={7}>
-          <div className='mx-auto px-4' style={{ maxWidth: '400px', height: '90vh', marginTop: '5vh', overflowX: 'auto' }}>
+          <div className='mx-auto px-4 my-4' style={{ maxWidth: '400px' }}>
             {exercisesList.map(ex => <ExerciseCard style={{ marginBottom: '1px', maxWidth: '400px' }} exerciseKey={ex} />)}
           </div>
         </Col>
