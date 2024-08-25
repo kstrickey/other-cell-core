@@ -27,7 +27,7 @@ export default function Home() {
           <div className='mt-2 h4'>Other Cell Core&#8482;</div>
           <Button
             className='mx-auto my-4'
-            style={{ width: '240px' }}
+            style={{ width: '100%', maxWidth: '240px' }}
             size='lg'
             onClick={() => setExercisesList(getShuffledExerciseList())}
           >Shuffle</Button>

@@ -34,7 +34,8 @@
     "iconPath": "icons/scissors.png"
   },
   "TWISTS": {
-    "displayName": "Twists"
+    "displayName": "Twists",
+    "iconPath": "icons/twists.png"
   },
   "BICYCLES": {
     "displayName": "Bicycles",
