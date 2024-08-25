@@ -20,8 +20,8 @@ export default function Home() {
   const [exercisesList, setExercisesList] = useState(DEFAULT_EXERCISE_LIST);
 
   return (
-    <Container className='soothing-background m-0 px-5' fluid style={{ minHeight: '100vh', width: '100vw' }}>
-      <Row>
+    <Container className='d-flex soothing-background m-0 px-5' fluid style={{ minHeight: '100vh', width: '100vw' }}>
+      <Row className='m-auto'>
         <Col className='d-flex flex-column justify-content-center align-items-center' md={5}>
           <img className='mt-3' src='/logo512.png' alt='Other Cell Core logo' width='100px' />
           <div className='mt-2 h4'>Other Cell Core&#8482;</div>
