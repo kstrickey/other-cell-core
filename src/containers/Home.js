@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
+import {Col, Row, Container} from 'react-bootstrap';
 import { DEFAULT_EXERCISE_LIST } from '../libs/exercises';
 import ExerciseCard from '../components/ExerciseCard';
 import Stopwatch from '../components/Stopwatch';
