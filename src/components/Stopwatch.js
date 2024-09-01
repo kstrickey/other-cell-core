@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default function Stopwatch() {
     // state to store time
@@ -35,13 +36,19 @@ export default function Stopwatch() {
           {minutes.toString().padStart(2, "0")}:
           {seconds.toString().padStart(2, "0")}
         </p>
-        <div className="stopwatch-buttons">
-          <button className="stopwatch-button" onClick={startAndStop}>
-            {isRunning ? "Stop" : "Start"}
-          </button>
-          <button className="stopwatch-button" onClick={reset}>
-            Reset
-          </button>
+        <div>
+          <Button
+            className='px-2 py-2'
+            style={{ width: '50%', maxWidth: '150px' }}
+            size='lg' onClick={startAndStop}>
+            {isRunning ? (<img src="icons/pause.png" width={40} alt="Pause" />) : (<img src="icons/play.png" width={40} alt="Play" />)}
+          </Button>
+          <Button 
+            className='px-2 py-2'
+            style={{ width: '50%', maxWidth: '150px' }}
+            size='lg'  onClick={reset}>
+            {<img src="icons/stop.png" width={40} alt="Stop" />}
+          </Button>
         </div>
       </div>
     );
