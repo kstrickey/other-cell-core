@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
+import {Col, Row, Container} from 'react-bootstrap';
 import { DEFAULT_EXERCISE_LIST } from '../libs/exercises';
 import ExerciseCard from '../components/ExerciseCard';
+import Stopwatch from '../components/Stopwatch';
 
 
 function getShuffledExerciseList() {
@@ -13,7 +12,6 @@ function getShuffledExerciseList() {
       .map(val => ({ val, sort: Math.random() }))  // randomize order
       .sort((a, b) => a.sort - b.sort).map(({ val }) => val)
 }
-
 
 export default function Home() {
 
@@ -31,6 +29,7 @@ export default function Home() {
             size='lg'
             onClick={() => setExercisesList(getShuffledExerciseList())}
           >Shuffle</Button>
+          <Stopwatch />{/* put a stopwatch */ }
         </Col>
         <Col md={7}>
           <div className='mx-auto px-4 my-4' style={{ maxWidth: '400px' }}>
