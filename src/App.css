@@ -22,8 +22,9 @@ body, html {
 
 /* CSS for stopwatch */
 .stopwatch-time {
-    text-align: center;
-    font-size: 60px;
+  font-family: monospace, monospace, 'Arial', sans-serif;
+  text-align: center;
+  font-size: 60px;
 }
 
 /* General utility CSS classes for app */
